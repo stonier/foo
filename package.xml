@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://download.ros.org/schema/package_format2.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>foo</name>
+  <version>0.0.0</version>
+  <description>
+    Test package
+  </description>
+
+  <maintainer email="me@gmail.com">Me</maintainer>
+
+  <license>BSD</license>
+
+  <author>Me</author>
+
+  <build_depend>python3-setuptools</build_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
